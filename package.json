@@ -4,7 +4,6 @@
   "description": "deasciifier.com OS X Workflow",
   "main": "deasciifier.js",
   "scripts": {
-    "postinstall": "node generate_workflow.js && open \"workflow/Convert Text to Turkish.workflow\""
   },
   "bin": {
     "deasciify": "./bin/deasciify"
